@@ -34,11 +34,11 @@ public class Movie {
 		this.movieName = movieName;
 	}
 
-	public String getAuthorName() {
+	public String getDirectorName() {
 		return directorName;
 	}
 
-	public void setAuthorName(String directorName) {
+	public void setDirectorName(String directorName) {
 		this.directorName = directorName;
 	}
 
