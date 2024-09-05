@@ -13,11 +13,9 @@ public class Movie {
 	private Integer movieId;
 
 	private String movieName;
-
 	private String directorName;
+	private Double movieRating;  // Ensure this is a Double type
 
-	private Double movieRating;
-	
 	public Integer getMovieId() {
 		return movieId;
 	}
@@ -42,11 +40,13 @@ public class Movie {
 		this.directorName = directorName;
 	}
 
-	public Double getMoviePrice() {
+	// Correct getter for movieRating
+	public Double getMovieRating() {
 		return movieRating;
 	}
 
-	public void setMoviePrice(Double movieRating) {
+	// Correct setter for movieRating
+	public void setMovieRating(Double movieRating) {
 		this.movieRating = movieRating;
 	}
 }
